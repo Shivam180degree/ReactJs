@@ -1,0 +1,111 @@
+.bgImge {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../src/Images/BGImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.searchBar {
+  position: absolute;
+  right: 0;
+}
+.searchBar input {
+  box-shadow: 0 1px 5px 4px lightblue;
+}
+.searchBar button {
+  position: relative;
+    top: -2px;
+    border-radius: 4px;
+    margin-left: 6px;
+}
+.container {
+  position: relative;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.textContainer {
+  margin: 20px 0;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  font-size: 25px;
+}
+
+input {
+  padding: 12px 20px;
+  box-shadow: 10px 10px 5px lightblue;
+  font-size: 1rem;
+  text-align: center;
+  outline: transparent;
+  width: 40%;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background: #f57c00;
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: none;
+  display: inline-block;
+}
+
+.addBtn {
+  position: relative;
+  right: 50px;
+  top: -2px;
+  border-radius: 0 4px 5px 0px;
+}
+ul {
+  max-width: 430px;
+  margin: 27px auto 15px;
+}
+ul li {
+  margin-bottom: 10px;
+  list-style: none;
+  background: #00796b;
+  color: white;
+  padding: 10px 10px;
+  text-align: left;
+  max-width: 320px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.smallBtn {
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.imageBox {
+  width: 160px;
+  height: 160px;
+  margin: 20px auto;
+}
+
+.imageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.completedTodo {
+    text-decoration: line-through;
+    background: #000;
+}
